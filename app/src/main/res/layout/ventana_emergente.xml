@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="86dp"
+        android:background="#139CBD"
+        android:gravity="center"
+        android:text="Actualizar"
+        android:textColor="#FFF"
+        android:textSize="25dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:gravity="center"
+        android:text="Producto"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/productotxt"
+        android:layout_width="372dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="18dp"
+        android:layout_marginRight="18dp"
+     />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="5dp"
+        android:gravity="center"
+        android:text="Precio"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/preciotxt"
+        android:layout_width="379dp"
+        android:layout_height="65dp"
+        android:layout_marginLeft="18dp"
+        android:layout_marginRight="18dp"
+         />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="5dp"
+        android:gravity="center"
+        android:text="Codigo"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/codigotxt"
+        android:layout_width="377dp"
+        android:layout_height="63dp"
+        android:layout_marginLeft="18dp"
+        android:layout_marginRight="18dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="5dp"
+        android:gravity="center"
+        android:text="imgURL"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/img1"
+        android:layout_width="379dp"
+        android:layout_height="66dp"
+        android:layout_marginLeft="18dp"
+        android:layout_marginRight="18dp"
+         />
+
+    <Button
+        android:id="@+id/btn_actualizar"
+        android:layout_width="361dp"
+        android:layout_height="63dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginRight="25dp"
+        android:gravity="center"
+        android:text="Actualizar"
+        android:textAllCaps="false"
+        android:textSize="21sp" />
+</LinearLayout>

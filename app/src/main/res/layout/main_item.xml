@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="6dp"
+    android:elevation="6dp"
+    app:cardUseCompatPadding="true">
+
+    <RelativeLayout
+        android:layout_width="411dp"
+        android:layout_height="774dp"
+        android:background="@mipmap/fondofrrr"
+        android:padding="15dp">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/img1"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@mipmap/ic_launcher"
+            app:civ_border_color="#ff000000"
+            app:civ_border_width="2dp" />
+
+        <TextView
+            android:id="@+id/productotxt"
+            android:layout_width="273dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="33dp"
+            android:layout_toRightOf="@id/img1"
+            android:text="Producto"
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/preciotxt"
+            android:layout_width="272dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/productotxt"
+            android:layout_marginLeft="34dp"
+            android:layout_toRightOf="@id/img1"
+            android:text="Precio"
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/codigotxt"
+            android:layout_width="272dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/preciotxt"
+            android:layout_marginLeft="34dp"
+            android:layout_toRightOf="@id/img1"
+            android:text="Codigo"
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="349dp"
+            android:layout_height="83dp"
+            android:layout_below="@+id/codigotxt"
+            android:layout_marginTop="39dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_eliminar"
+                android:layout_width="173dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:backgroundTint="#CD1F1F"
+                android:text="Eliminar"
+                android:textAllCaps="false" />
+
+            <Button
+                android:id="@+id/btn_editar"
+                android:layout_width="173dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:backgroundTint="#4CAF50"
+                android:text="Editar"
+                android:textAllCaps="false" />
+
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".IniciarSesion">
+
+    <LinearLayout
+        android:layout_width="372dp"
+        android:layout_height="191dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.41"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.059">
+
+        <EditText
+            android:id="@+id/et_emailinicio"
+            android:layout_width="368dp"
+            android:layout_height="63dp"
+            android:ems="10"
+            android:hint="Ingrese un Email"
+            android:inputType="textEmailAddress" />
+
+        <EditText
+            android:id="@+id/et_contraseñainicio"
+            android:layout_width="368dp"
+            android:layout_height="58dp"
+            android:ems="10"
+            android:hint="Ingrese una Contraseña"
+            android:inputType="textPassword" />
+
+        <Button
+            android:id="@+id/btn_sesion"
+            android:layout_width="188dp"
+            android:layout_height="65dp"
+            android:backgroundTint="#03A9F4"
+            android:text="Iniciar sesion"
+            android:onClick="IniciarSesion"
+            android:textColor="#000000" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

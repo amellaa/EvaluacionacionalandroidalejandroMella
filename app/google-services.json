@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "50711713264",
+    "firebase_url": "https://crudpruebanacional-default-rtdb.firebaseio.com",
+    "project_id": "crudpruebanacional",
+    "storage_bucket": "crudpruebanacional.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:50711713264:android:24269b66d850406b18f935",
+        "android_client_info": {
+          "package_name": "com.example.evaluacionnacionalandroid"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC2UfX6RmHkC0KH09QcukDWZkcn95fDaVc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
